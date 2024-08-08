@@ -101,13 +101,13 @@ body {
 
 /* Handle (the draggable part of the scrollbar) */
 ::-webkit-scrollbar-thumb {
-  background: #0C7976;
+  background: #4CAF50;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0c7975dd;
+  background: #4CAF50dd;
 }
 
 /* Corner (where the horizontal and vertical scrollbars meet) */
