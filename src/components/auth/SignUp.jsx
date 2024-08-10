@@ -3,11 +3,13 @@ import { Label } from '../ui/label'
 import { Input } from '../ui/input'
 import { Checkbox } from '../ui/checkbox'
 import { Button } from '../myComponents/button'
+import MyLogo from '../myComponents/MyLogo'
 
 const SignUp = ({onSwitch}) => {
     return (
         <div className='flex flex-col border shadow-xl p-5 lg:p-10 rounded-3xl w-full max-w-[550px] items-center gap-5'>
-            <img src="/assets/images/logos/logo.png" alt="EzyMart" width={"170px"} className=' object-cover' />
+            {/* <img src="/assets/images/logos/logo.png" alt="EzyMart" width={"170px"} className=' object-cover' /> */}
+            <MyLogo/>
 
             <div className=' w-full flex flex-col gap-2 lg:gap-4 items-center'>
                 <h3 className=' font-bold text-3xl lg:text-4xl text-center'>Create an Account</h3>
